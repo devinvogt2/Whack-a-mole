@@ -15,7 +15,6 @@ gameArea.addEventListener('click', function(clickEvent) {
     clickEvent.target.classList.remove('mole');
     score++;
     numOfHoles++;
-    //some dom to chane the css to add a hole
     scoreDisplay.innerText = "Score:" + score;
     holeDisplay.innerText = "Current Holes:" + numOfHoles;
     addHole()
